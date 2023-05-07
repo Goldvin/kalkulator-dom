@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Kalkulator</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@800&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="src/styles/style.css">
+</head>
+<body>
+    <section class="container">
+  <h1>Kalkulator</h1>
+  <input type="number" id="num1" placeholder="Angka pertama">
+  <input type="number" id="num2" placeholder="Angka kedua">
+  <div class="operator-buttons">
+    <button class="operator-btn" id="addBtn">+</button>
+    <button class="operator-btn" id="subtractBtn">-</button>
+    <button class="operator-btn" id="multiplyBtn">x</button>
+    <button class="operator-btn" id="divideBtn">÷</button>
+  </div>
+  <h2>Hasil: <span id="result"></span></h2>
+  <button id="resetBtn">Reset</button>
+</section>
+  <script src="src/js/index.js"></script>
+</body>
+</html>

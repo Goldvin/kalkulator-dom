@@ -1,0 +1,45 @@
+* {
+  font-family: 'Poppins', sans-serif;
+  color: #0f0f0f9d;
+}
+html {
+  background-image: url("/src/img/texture.webp");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+body {
+  max-width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.container {
+  border-style:outset;
+  background-color: rgb(241, 240, 240);
+  box-shadow: 8px 8px 4px rgba(0, 0, 0, 0.5);
+  padding: 10px;
+  margin-top: 3%;
+  text-align: center;
+}
+input {
+  border: none;
+  background-color: white;
+  font-size: large;
+  padding: 16px;
+  margin: 16px;
+}
+button {
+  font-size: large;
+  border: none;
+  background-color: #0f0f0f9d;
+  color: whitesmoke;
+  padding: 8px 16px;
+}
+
+@media (max-width: 480px) {
+  input {
+    max-width: 70%;
+    
+}
+}
